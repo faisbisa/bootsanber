@@ -1,0 +1,22 @@
+{
+  "name": "bootsanber",
+  "version": "1.0.0",
+  "description": "Sebelum memulai tugas, terlebih dahulu untuk menginstalll beberapa yang software :\r 1. ketik di terminal npm init\r pendukung yakni npm install -> npm install --save prompt-sync",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faisbisa/bootsanber.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faisbisa/bootsanber/issues"
+  },
+  "homepage": "https://github.com/faisbisa/bootsanber#readme",
+  "dependencies": {
+    "prompt-sync": "^4.2.0"
+  }
+}
