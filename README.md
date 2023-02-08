@@ -12,7 +12,9 @@ Sebelum memulai tugas, terlebih dahulu untuk menginstalll beberapa yang software
     - git add .
     - git commit -m "add package json"
     - git push origin main
-    
+11. Membuat branch lewat Vcode :
+    - klik icon main bwah pojok kiri
+    - pilih branch ketikkan nama branch, enter
 
 Untuk tugas yang ada :
 1. Soal1.js  untuk membuat akar pangkat 2 dari x dengan x harus bilangan genap, dengan kondisi sebagai berikut :
