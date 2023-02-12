@@ -21,5 +21,14 @@ Untuk tugas yang ada :
 - Jika user input angka kurang dari 0 , user get error message "Tidak bisa input bilangan negatif" 
 - Jika user input angka ganjil, user get error message "Tidak bisa input bilangan ganjil"
 Hint : gunakan rumus sqrt(x)
+Untuk menjalankan soal1.js tinggal ketikkan node soal1.js
+maka hasilnya seperti ini 
+1. jika memasukkan bilangan genap misal 20 maka akan menghasilkan akar dari 20=4.72
+<img width="575" alt="image" src="https://user-images.githubusercontent.com/19841139/218313920-fd632007-cb84-4ccc-b335-99379f25bb61.png">
+2. jika memasukkan bilangan ganjil misal 25 maka hasilnya "Tidak bisa input bilangan ganjil"
+<img width="566" alt="image" src="https://user-images.githubusercontent.com/19841139/218314366-a04bf38a-8981-46cd-82df-d8b2c51f7c38.png">
+3. jika memasukkan bilangan <dari 0 maka hasilnya "Tidak bisa input bilagan negatif"
+<img width="541" alt="image" src="https://user-images.githubusercontent.com/19841139/218314461-05bff713-9cf3-4174-9a39-792dd68ad084.png">
+
 
 
