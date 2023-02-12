@@ -32,6 +32,7 @@ let productBin = {
         "createdTime": "2022-02-08T10:35:19Z",
       }
     ],
+    
     "message": "success"
   }
 
