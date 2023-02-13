@@ -8,7 +8,7 @@ let productBin = {
         "productId": 110000081009,
         "productName": "FloBrand-DressBSPink",
         "productCode": "FBR00040101",
-        "quantity1": 76,
+        "quantity": 76,
         "createdTime": "2021-12-21T13:54:48Z",
       },
       {
@@ -18,7 +18,7 @@ let productBin = {
         "productId": 110000081009,
         "productName": "FloBrand-DressBSPink",
         "productCode": "FBR00040101",
-        "quantity2": 71,
+        "quantity": 71,
         "createdTime": "2021-12-21T13:54:48Z",
       },
       {
@@ -28,19 +28,17 @@ let productBin = {
         "productId": 110000081009,
         "productName": "FloBrand-DressBSPink",
         "productCode": "FBR00040101",
-        "quantity3": 10,
+        "quantity": 10,
         "createdTime": "2022-02-08T10:35:19Z",
       }
     ],
-    
+
     "message": "success"
   }
 
-  function printQuantity(data){
-    for(let i=0; i<data.quantity; i++ ){
-        let quantity = data.quantity[i]
-        console.log("Total Quantity = "  + quantity)
-    }
-  }
 
-  printQuantity(productBin)
+    var totalQuantity = productBin.data.reduce(function(totalQuantity, jumlah) {
+        return totalQuantity + jumlah.quantity;
+      }, 0);
+      
+      console.log(totalQuantity);
