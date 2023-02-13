@@ -30,5 +30,10 @@ maka hasilnya seperti ini
 3. jika memasukkan bilangan <dari 0 maka hasilnya "Tidak bisa input bilagan negatif"
 <img width="541" alt="image" src="https://user-images.githubusercontent.com/19841139/218314461-05bff713-9cf3-4174-9a39-792dd68ad084.png">
 
+2. Soal2.js Buatlah sebuah program javascript untuk menjumlahkan quantity dari semua storageId untuk produk tersebut 
+ Untuk mengambil total dari Quantity pada productCode tinggal menggunakan reduce karena menurut saya ini alur yang sangat simple. tinggal dipanggil saja function sampai ketemu ketiga quantity dan akan muncul totalnya seperti berikut : 
+ <img width="755" alt="image" src="https://user-images.githubusercontent.com/19841139/218484667-d7d7d356-b854-4a41-9611-2904115cb8b2.png">
+
+
 
 
